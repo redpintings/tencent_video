@@ -183,7 +183,7 @@ class OperateAllPhone():
 
 
 if __name__ == '__main__':
-    p = PhoneControl('10.16.38.135:5555')
+    p = PhoneControl('xxxxxx')
     for i in range(20):
         p.input_swipe([761, 1390], [806, 999])
         time.sleep(0.8)
