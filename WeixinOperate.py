@@ -19,10 +19,7 @@ class WeixinOperate():
 
     def __init__(self, phone_list):
         self.oap = OperateAllPhone(phone_list)
-        self.home_weishi = {}  # 桌面微视的位置
-        self.main_bottom = {}  # 微视下的几大按钮
-        self.gzh_folder = {}   #
-
+       
     def home(self):
         """
         :return:通过多次点击BACK按键回到主界面 之所以不直接点击HOME按键 是需要层层返回到主界面
