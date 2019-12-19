@@ -2,7 +2,6 @@ import sys
 import os
 curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
-print(rootPath)
 sys.path.append(rootPath)
 from tencent_weishi_dowload.config import BTN
 from tencent_weishi_dowload.config import KEY
@@ -10,9 +9,6 @@ import time
 from os import system
 from random import randint
 from tencent_weishi_dowload.PhoneControl import OperateAllPhone
-# from phone_operate.VC import VC
-# from instance import redis_instance
-# from crawler_assist.tidy_req_data import TidyReqData
 
 
 class WeixinOperate():
