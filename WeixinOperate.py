@@ -123,7 +123,7 @@ class WeixinOperate():
 
 
 if __name__ == '__main__':
-    w = WeixinOperate(['10.16.38.135:5555'])
+    w = WeixinOperate(['xxxxx'])
     # w.home()
     w.home_to_gzh_search()
     # w.search_gzh()
